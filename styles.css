@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/background-navbar.jpg);
+    height: 100px;
+    width: auto;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 20px 20px;
+}
+/* .heading_1{
+    height: 80px;
+    width: 320px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color:lightseagreen;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    color: rgb(13, 255, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(245, 245, 245);
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.3);
+    cursor: pointer;
+
+}
+
+
+/* section 1 */
+.section_1_part_1{
+    background-image: url(images/background_image_1.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100vh;
+    width: 100%;
+}
+/* .section_1_part_2{
+    background-color: yellow;
+    height: 500px;
+    width: auto;
+} */
+.section_1_part_1_x{
+    /* margin-top: 30px; */
+    /* margin-left: 30px; */
+    /* padding-top: 40px; */
+    height: 550px;
+    width: 450px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.section_1_part_1_heading{
+    height: 100px;
+    width: 450px;
+    padding-top: 35px;
+    text-align: center;
+}
+.section_1_part_1_form{
+
+    height: 400px;
+    width: 450px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.section_1_part_1_form input{
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.section_1_part_1_form textarea{
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.section_1_part_1_form p{
+    font-size: 12px;
+    height: 20px;
+    width: 280px;
+    text-align: center;
+    margin-left: 70px;
+}
+.btn{
+    background-color: chartreuse;
+    height: 30px;
+    cursor: pointer;
+    width: 280px;
+}
